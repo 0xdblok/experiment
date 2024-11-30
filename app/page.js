@@ -57,7 +57,7 @@ export default function Home() {
         </div>
       </div>
   
-      <p className=" text-leading font-thin  text-center text-white  pt-16">All rights reserve Experiment 02(SAI) 2024</p>
+      <p className=" text-leading font-thin  text-center text-white  pt-20">All rights reserve Experiment 02(SAI) 2024</p>
 
 
       {/* Button with improved positioning */}
