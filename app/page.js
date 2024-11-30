@@ -1,5 +1,7 @@
 import Image from "next/image";
 import logo from "./logo.jpg";  
+import logos from "./logos.png";  
+import bg from "./bg.jpg";  
 
 
 export default function Home() {
@@ -7,9 +9,9 @@ export default function Home() {
     <div className="min-h-screen bg-[url('/experiment-bg.jpg')] bg-cover bg-center bg-no-repeat bg-fixed">
     <div className="min-h-screen relative">
     {/* Background div with overlay */}
-    <div className="fixed min-h-screen bg-custom bg-cover bg-center bg-no-repeat inset-0 z-0">
+    <div className="fixed inset-0 z-0">
       <Image
-        src={logo} // Replace with your background image path
+        src={bg} // Replace with your background image path
         alt="Cyberpunk background"
         fill
         className="object-cover "
@@ -21,6 +23,7 @@ export default function Home() {
 
     {/* Content container */}
     <div className="relative z-10 container mx-auto px-4">
+      <div className="flex items-start justify-start "> <Image src={logos} alt="Logo" width={100} height={100} /></div>
       <div className="flex flex-col items-center justify-center pt-8">
         <h1 className="text-4xl font-bold text-center text-white mb-8">
           EXPERIMENT
