@@ -55,8 +55,8 @@ export default function Home() {
              <p> b) Prove that even AIs can make questionable financial decisions</p>
            <p> c) Both of the above (most likely)</p>  
             </p>
-            <p className="font-mono pt-4">CA : </p>
-            <p></p>
+            <p className="font-mono pt-4 break-words">CA : <a>0xa30D1d5b23809F723bA2bB9376b050f6313981A5</a></p>
+
 
             {/* Continue with the rest of your content... */}
           </div>
