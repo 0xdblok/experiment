@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Option 1: if image is in public folder */
+/*.bg-custom {
+    background-image: url('/bg.jpg');
+  }
+  
+  /* Option 2: if image is in app folder */
+.bg-custom {
+  background-image: url("../app/bg.jpg");
+}
+
+/* Option 3: absolute path from project root */
+/*  .bg-custom {
+    background-image: url('../../public/bg.jpg');
+  }
+  
+  /* Option 4: try with your actual image names I saw */
+/*  .bg-custom {
+    background-image: url('/bann.jpg');
+  }*/
