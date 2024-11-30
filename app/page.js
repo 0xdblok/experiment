@@ -1,6 +1,8 @@
 import Image from "next/image";
 import logo from "./logo.jpg";  
 import logos from "./logos.png";  
+import logoss from "./logoss.png";
+import logosss from "./logosss.png";
 import bg from "./bg.jpg";  
 
 
@@ -24,7 +26,7 @@ export default function Home() {
 
     {/* Content container */}
     <div className="relative z-10 container mx-auto px-12">
-      <div className="flex items-start justify-start "> <Image src={logos} alt="Logo" width={100} height={100} />
+      <div className="flex items-start justify-start "> <Image src={logoss} alt="Logo" width={100} height={100} />
      <h1 className="text-4xl pt-8   font-mono font-bold text-center justify-center flex text-white mb-8">
           EXPERIMENT
         </h1> </div>
