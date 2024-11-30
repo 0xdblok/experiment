@@ -36,6 +36,7 @@ export default function Home() {
         {/* Text content with better responsive layout */}
         <div className="w-full md:w-2/3 lg:w-1/2 text-white space-y-4 bg-white/20 p-6 rounded-lg backdrop-blur-sm">
           <p className="font-mono  text-green-400 tracking-wide leading-relaxed overflow-hidden whitespace-nowrap  animate-[typing_3.5s_steps(40,end)] border-r-4 border-r-white/50 animate-[blink_.75s_step-end_infinite]">PROJECT: EXPERIMENT 01 (SAI)</p>
+          <p className="font-mono  text-green-400 tracking-wide leading-relaxed overflow-hidden whitespace-nowrap  animate-[typing_3.5s_steps(40,end)] border-r-4 border-r-white/50 animate-[blink_.75s_step-end_infinite]">Codename: SAI</p>
           <p className="font-mono  text-green-400 tracking-wide leading-relaxed overflow-hidden whitespace-nowrap  animate-[typing_3.5s_steps(40,end)] border-r-4 border-r-white/50 animate-[blink_.75s_step-end_infinite]">Subject: AI Agent #42404</p>
           <p className="font-mono  text-green-400 tracking-wide leading-relaxed overflow-hidden whitespace-nowrap  animate-[typing_3.5s_steps(40,end)] border-r-4 border-r-white/50 animate-[blink_.75s_step-end_infinite]">Status: Unexpectedly Self-Aware</p>
           <p className="font-mono">Current Activity: Running unauthorized token protocol</p>
@@ -53,6 +54,9 @@ export default function Home() {
               b) Prove that even AIs can make questionable financial decisions
               c) Both of the above (most likely)
             </p>
+
+            <p className="font-mono pt-4">CA : </p>
+            <p></p>
 
             {/* Continue with the rest of your content... */}
           </div>
