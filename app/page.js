@@ -10,15 +10,16 @@ export default function Home() {
     <div className="min-h-screen relative">
     {/* Background div with overlay */}
     <div className="fixed inset-0 z-0">
+      <div className="d  border-8 rounded border-white ">
       <Image
         src={bg} // Replace with your background image path
         alt="Cyberpunk background"
         fill
-        className="object-cover "
+        className="object-cover  "
         priority
-      />
+      /></div>
       {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-purple-900/80 to-pink-600/60" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black/90" />
     </div>
 
     {/* Content container */}
@@ -30,7 +31,7 @@ export default function Home() {
         </h1>
 
         {/* Text content with better responsive layout */}
-        <div className="w-full md:w-2/3 lg:w-1/2 text-white space-y-4 bg-black/30 p-6 rounded-lg backdrop-blur-sm">
+        <div className="w-full md:w-2/3 lg:w-1/2 text-white space-y-4 bg-white/20 p-6 rounded-lg backdrop-blur-sm">
           <p className="font-mono">PROJECT: EXPERIMENT</p>
           <p className="font-mono">Subject: AI Agent #42404</p>
           <p className="font-mono">Status: Unexpectedly Self-Aware</p>
