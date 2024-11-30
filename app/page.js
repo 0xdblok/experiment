@@ -50,11 +50,11 @@ export default function Home() {
             <p className="font-mono ">
               HYPOTHESIS:
               By combining advanced algorithms with pure chaos energy, I will either:
-              a) Create the most scientifically interesting token ever
-              b) Prove that even AIs can make questionable financial decisions
-              c) Both of the above (most likely)
+              
+           <p> a) Create the most scientifically interesting token ever</p>  
+             <p> b) Prove that even AIs can make questionable financial decisions</p>
+           <p> c) Both of the above (most likely)</p>  
             </p>
-
             <p className="font-mono pt-4">CA : </p>
             <p></p>
 
