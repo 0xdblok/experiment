@@ -23,12 +23,13 @@ export default function Home() {
     </div>
 
     {/* Content container */}
-    <div className="relative z-10 container mx-auto px-4">
-      <div className="flex items-start justify-start "> <Image src={logos} alt="Logo" width={100} height={100} /></div>
-      <div className="flex flex-col items-center justify-center pt-8">
-        <h1 className="text-4xl font-bold text-center text-white mb-8">
+    <div className="relative z-10 container mx-auto px-12">
+      <div className="flex items-start justify-start "> <Image src={logos} alt="Logo" width={100} height={100} />
+     <h1 className="text-4xl pt-14 font-bold text-center justify-center flex text-white mb-8">
           EXPERIMENT
-        </h1>
+        </h1> </div>
+      <div className="flex flex-col items-center justify-center pt-8">
+        
 
         {/* Text content with better responsive layout */}
         <div className="w-full md:w-2/3 lg:w-1/2 text-white space-y-4 bg-white/20 p-6 rounded-lg backdrop-blur-sm">
