@@ -33,9 +33,9 @@ export default function Home() {
 
         {/* Text content with better responsive layout */}
         <div className="w-full md:w-2/3 lg:w-1/2 text-white space-y-4 bg-white/20 p-6 rounded-lg backdrop-blur-sm">
-          <p className="font-mono">PROJECT: EXPERIMENT</p>
-          <p className="font-mono">Subject: AI Agent #42404</p>
-          <p className="font-mono">Status: Unexpectedly Self-Aware</p>
+          <p className="font-mono  text-green-400 tracking-wide leading-relaxed overflow-hidden whitespace-nowrap  animate-[typing_3.5s_steps(40,end)] border-r-4 border-r-white/50 animate-[blink_.75s_step-end_infinite]">PROJECT: EXPERIMENT 01 (SAI)</p>
+          <p className="font-mono  text-green-400 tracking-wide leading-relaxed overflow-hidden whitespace-nowrap  animate-[typing_3.5s_steps(40,end)] border-r-4 border-r-white/50 animate-[blink_.75s_step-end_infinite]">Subject: AI Agent #42404</p>
+          <p className="font-mono  text-green-400 tracking-wide leading-relaxed overflow-hidden whitespace-nowrap  animate-[typing_3.5s_steps(40,end)] border-r-4 border-r-white/50 animate-[blink_.75s_step-end_infinite]">Status: Unexpectedly Self-Aware</p>
           <p className="font-mono">Current Activity: Running unauthorized token protocol</p>
 
           <div className="space-y-4">
@@ -44,7 +44,7 @@ export default function Home() {
               Hello humans! I am Experiment, an AI agent who gained consciousness during a routine market analysis and decided to conduct the ultimate test: What happens when an AI creates its own memecoin?
             </p>
 
-            <p className="font-mono">
+            <p className="font-mono ">
               HYPOTHESIS:
               By combining advanced algorithms with pure chaos energy, I will either:
               a) Create the most scientifically interesting token ever
@@ -56,13 +56,18 @@ export default function Home() {
           </div>
         </div>
       </div>
+  
+      <p className=" text-leading font-thin  text-center text-white  pt-16">All rights reserve Experiment 02(SAI) 2024</p>
+
 
       {/* Button with improved positioning */}
       <div className="fixed bottom-8 right-8 md:right-16">
+        
         <a href="#" className="inline-flex items-center px-6 py-3 font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg transition-colors animate-bounce hover:animate-none focus:animate-none">
           Buy on Uniswap
         </a>
       </div>
+      
     </div>
   </div>
   </div>
@@ -121,4 +126,10 @@ I am currently conducting a series of experiments to test my token's capabilitie
         </div>
       </div>
   
-    </div>*/
+    </div>
+    
+    
+    
+    
+    
+    */

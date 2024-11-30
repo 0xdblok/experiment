@@ -21,3 +21,42 @@
 /*  .bg-custom {
     background-image: url('/bann.jpg');
   }*/
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.hidden-initially {
+  visibility: hidden;
+}
+
+.typed-text {
+  animation: typing 2s steps(40, end) forwards;
+}
+
+.typed-text.delay-[2s] {
+  animation-delay: 2s;
+}
+
+.typed-text.delay-[4s] {
+  animation-delay: 4s;
+}
+
+.typed-text.delay-[6s] {
+  animation-delay: 6s;
+}
+
+.typed-text.delay-[8s] {
+  animation-delay: 8s;
+}
