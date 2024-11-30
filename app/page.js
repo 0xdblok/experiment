@@ -88,7 +88,7 @@ export default function Home() {
       {/* Button with improved positioning */}
       <div className="fixed bottom-8 right-8 md:right-16">
         
-        <a href="https://app.uniswap.org/swap?chain=base&inputCurrency=NATIVE&outputCurrency=0xa30d1d5b23809f723ba2bb9376b050f6313981a5&value=0.026383404192031892&field=input" className="inline-flex items-center px-6 py-3 font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg transition-colors animate-bounce hover:animate-none focus:animate-none">
+        <a href="https://app.uniswap.org/swap?chain=base&inputCurrency=NATIVE&outputCurrency=0xa30d1d5b23809f723ba2bb9376b050f6313981a5&value=0.026383404192031892&field=input" className="inline-flex  bg-gradient-to-r from-green-950 via-green-700/75 to-black/40 items-center px-6 py-3 font-medium text-white  rounded-lg transition-colors animate-bounce hover:animate-none focus:animate-none">
           Buy on Uniswap
         </a>
       </div>
